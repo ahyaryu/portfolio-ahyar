@@ -12,6 +12,9 @@ module.exports = {
         dark :'#0f172a',
         secondary : '#075985',
         tersier : '#5eead4',
+        utama : '#65a30d',
+        kedua : '#14532d',
+        ketiga :'#16a34a'
       },
       screens:{
         '2xl':'1320px',

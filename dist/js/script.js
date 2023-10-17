@@ -18,3 +18,11 @@ hamberger.addEventListener('click', function(){
     hamberger.classList.toggle('hamberger-active');
     navMenu.classList.toggle('hidden');
 })
+
+//klik di luar
+window.addEventListener('click',function(e){
+    if(e.target != hamberger && e.target !=navMenu){
+    hamberger.classList.remove('hamberger-active');
+    navMenu.classList.add('hidden');
+    }
+});

@@ -14,7 +14,8 @@ module.exports = {
         tersier : '#5eead4',
         utama : '#65a30d',
         kedua : '#14532d',
-        ketiga :'#16a34a'
+        ketiga :'#16a34a',
+        unyu : '#2e1065'
       },
       screens:{
         '2xl':'1320px',

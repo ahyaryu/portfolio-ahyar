@@ -1319,6 +1319,11 @@ html{
     color: rgb(203 213 225 / var(--tw-text-opacity));
   }
 
+  .dark\:text-slate-400 {
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184 / var(--tw-text-opacity));
+  }
+
   .dark\:text-utama {
     --tw-text-opacity: 1;
     color: rgb(101 163 13 / var(--tw-text-opacity));
@@ -1327,11 +1332,6 @@ html{
   .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-slate-400 {
-    --tw-text-opacity: 1;
-    color: rgb(148 163 184 / var(--tw-text-opacity));
   }
 
   .dark\:shadow-slate-200 {
